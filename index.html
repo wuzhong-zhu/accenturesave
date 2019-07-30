@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="/resources/main.css" media="screen" title="no title" charset="utf-8">
+  </head> 
+  <body>
+    <div id='container'>
+      <div id="analytics-right">
+        <div id="chart1"></div>
+        <div id="chart2"></div>
+        <div id="table1">
+          <div class="grid-item"><i id="logo-1" class="fa fa-male"> 0</i></div>
+          <div class="grid-item"><i id="logo-2" class="fas fa-mobile"> 0</i></div>
+          <div class="grid-item"><i id="logo-3" class="fas fa-keyboard"> 0</i></div>
+          <div class="grid-item"><i id="logo-4" class="fas fa-wine-glass"> 0</i></div>
+          <div class="grid-item"><i id="logo-5" class="fas fa-laptop"> 0</i></div>
+          <div class="grid-item"><i id="logo-6" class="fas fa-tv"> 0</i></div>
+          <div class="grid-item"><i id="logo-7" class="fas fa-chair"> 0</i></div>
+          <div class="grid-item"><i id="logo-8" class="fas fa-wine-bottle"> 0</i></div>
+          <div class="grid-item"><i id="logo-9" class="fas fa-mug-hot"> 0</i></div>
+          <div class="grid-item"><i id="logo-10" class="fas fa-hotdog"> 0</i></div>
+          <div class="grid-item"><i id="logo-11" class="fas fa-paw"> 0</i></div>
+          <div class="grid-item"><i id="logo-12" class="fas fa-umbrella"> 0</i></div>
+          <div class="grid-item"><i id="logo-13" class="fas fa-briefcase"> 0</i></div>
+          <div class="grid-item"><i id="logo-14" class="fas fa-suitcase-rolling"> 0</i></div>
+          <div class="grid-item"><i id="logo-15" class="fas fa-wine-glass"> 0</i></div>
+          <div class="grid-item"><i id="logo-16" class="fas fa-book"> 0</i></div>
+        </div>
+      </div>
+      <div id="analytics-btn">
+        <div id="chart3"></div>
+      </div>
+      <div id="logo-div">
+          <img id="acc_logo" src="/resources/acc_logo.png"/>
+          <img id="qlik_logo" src="/resources/qlik_logo.png"/>
+      </div>
+      <div id="bounding-box"></div>
+      <div id="video-feed">
+        <img id="image" src="http://localhost:5080/vasp/api/framebuffer/ingestion/TEST/frame.mjpg?draw=YOLO"/>
+        <!-- <video autoplay="true" id="videoElement"> -->
+      </div>
+    </div>>
+    </div>
+
+    <script src="https://unpkg.com/enigma.js"></script>
+    <script src="https://unpkg.com/picasso.js"></script>
+    <script src="https://unpkg.com/jquery"></script>    
+    <script src="https://unpkg.com/halyard.js"></script>
+    <script src="https://unpkg.com/halyard.js@1.3.0/dist/halyard-enigma-mixin"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="/resources/variables.js"></script>
+    <script type="text/javascript" src="/resources/chart1.js"></script>
+    <script type="text/javascript" src="/resources/chart2.js"></script>
+    <script type="text/javascript" src="/resources/chart3.js"></script>
+    <script type="text/javascript" src="/resources/chart4.js"></script>
+    <script type="text/javascript" src="/resources/visualization.js"></script>
+    <script type="text/javascript" src="/resources/script.js"></script>
+  </body>
+</html> 
