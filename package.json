@@ -26,7 +26,7 @@
     "picasso-plugin-q": "0.20.0",
     "picasso.js": "0.20.0",
     "playground-js-api": "^0.1.11",
-    "ws": "6.1.4"
+    "ws": "7.4.6"
   },
   "devDependencies": {
     "@after-work.js/aw": "5.1.3",
